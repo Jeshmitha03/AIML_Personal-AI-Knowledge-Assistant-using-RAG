@@ -1,0 +1,4 @@
+topic,description
+Supervised Learning,Uses labelled data to train machine learning models.
+Unsupervised Learning,Finds hidden patterns in data without labelled outputs.
+Reinforcement Learning,An agent learns through rewards and penalties.

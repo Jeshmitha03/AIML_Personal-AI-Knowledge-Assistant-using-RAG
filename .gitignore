@@ -1,0 +1,51 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+
+# Project backups
+backups/
+
+# Raw duplicate sample files
+data/raw/
+
+# Generated uploaded-document data
+data/processed/uploaded_documents.jsonl
+vectorstore/uploaded_documents.index
+vectorstore/uploaded_embeddings.npy
+
+# Python bytecode
+*.pyc
+
+# Temporary API testing script
+test_gemini.py
